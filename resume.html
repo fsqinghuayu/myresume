@@ -1,0 +1,162 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <title>my resume</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-1.11.0.js"></script>
+		<style>
+		#want {padding-top:40px;height:600px;color: #fff; background-color: #1E88E5;}
+		#inf {padding-top:50px;height:700px; color:#000; background-image:url(img/背景.jpg)}
+		#tec {padding-top:40px;height:600px;color: #fff; background-image:url(img/bulewhite.jpg)}
+		#xm {padding-top:40px;height:600px;color: #fff; background-color: #00bcd4;}
+		.mo1 {position:relative;
+	          animation:myfirst1 2s;
+	          -webkit-animation:myfirst1 2s; /* Safari and Chrome */
+              }
+		.mo2 {position:relative;
+	          animation:myfirst2 2s;
+	          -webkit-animation:myfirst2 2s; /* Safari and Chrome */
+              }
+		.yuan {position:relative; margin:70px auto;width:70%;  
+            animation:run 20s linear infinite;  
+            -webkit-animation:run 20s linear infinite;  
+            -moz-animation:run 20s linear infinite;  
+            -o-animation:run 20s linear infinite;  
+        }
+        .child1 {width:20px; height:20px; position:absolute; top:145px; left:75px; font-size:26px; color:#000000;
+		          animation:run2 20s linear infinite;
+				  transform-origin:top center; }
+		.child2 {width:30px; height:20px; position:absolute; top:100px; left:150px; font-size:26px; color:#000000;
+		          animation:run2 20s linear infinite;
+				  transform-origin:top center; }
+		.child3 {width:30px; height:20px; position:absolute; top:108px; left:230px; font-size:26px; color:#000000;
+		          animation:run2 20s linear infinite;
+				  transform-origin:top center; }
+		.child4 {width:100x; height:30px; position:absolute; top:360px; left:97px; font-size:24px; color:#000000;
+		          animation:run2 20s linear infinite;
+				  transform-origin:top center; }
+		.child5 {width:100px; height:30px; position:absolute; top:310px; left:284px; font-size:24px; color:#000000;
+		          animation:run2 20s linear infinite;
+				  transform-origin:top center; }
+		.child6 {width:100px; height:20px; position:absolute; top:380px; left:230px; font-size:24px; color:#000000;
+		          animation:run2 20s linear infinite;
+				  transform-origin:top center; }
+		.child7 {width:30px; height:20px; position:absolute; top:200px; left:320px; font-size:26px; color:#000000;
+		          animation:run2 20s linear infinite;
+				  transform-origin:top center; }
+		.child8 {width:30px; height:20px; position:absolute; top:245px; left:85px; font-size:26px; color:#000000;
+		          animation:run2 20s linear infinite;
+				  transform-origin:top center; }
+	    @keyframes myfirst1
+		{ 0% { margin-left:0%;}
+		  25%{ margin-left:34.2%;}
+		  100%{ margin-left:0%}
+		}
+		      
+	    @keyframes myfirst2
+		{ 0% { margin-right:0%;}
+		  25%{ margin-right:34.2%;}
+		  100%{ margin-right:0%}
+		}
+		@keyframes run  
+        {  
+            0%{transform:rotate(0deg)}  
+            100%{transform:rotate(360deg)}    
+        }  
+        @keyframes run2  
+        {  
+            0%{transform:rotate(0deg)}  
+            100%{transform:rotate(-360deg)}   
+        }
+		@keyframes run3 
+
+		</style>
+ </head>
+ <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <p style="margin-top:10px; font-size:18px; color:#FFFFFF"><strong>resume</strong></p>
+            </div>
+            <div class="col-lg-offset-3 col-lg-6">
+                <div class="collapse navbar-collapse bs-js-navbar-scrollspy">
+                    <ul class="nav navbar-nav">
+					    <li><a href="#want">求职意向</a></li>
+                        <li><a href="#inf">我的信息</a></li>
+                        <li><a href="#tec">技能树</a></li>
+                        <li><a href="#xm">个人作品</a></li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+    </div>
+  </nav>
+    <div data-spy="scroll" data-target="#navbar-example" data-offset="0" style="height:768px;overflow:auto; position: relative">
+	<div id="want">
+	<img src="img/QQ图片20180228200119.jpg"class="img-circle" style="max-width:180px; margin-left:42.8%; margin-top:20px">
+	<h3 style="margin-left:26.5%">2489441209@qq.com<span class="glyphicon glyphicon-envelope" style="margin-right:10px; margin-left:5px"></span><strong>黄俊嘉</strong><img src="img/timg.jpg" style="max-width:24px; margin-left:10px"><button type="button" class="btn btn-link" onClick="reP()" style="color:#000000">我的微信</button><img src='img/微信.jpg' id="oImg" style='display:none; margin:auto' width="200px" hight="200px"></h3>
+	<hr size="5" color="#00CCCC" style="max-width:80%"/>
+	<div class="mo1"><h3 style="margin-left:34.2%"><strong>期待行业：</strong>互联网/电子商务,计算机软件</h3></div>
+	<div class="mo2"><h3 style="margin-left:34.2%"><strong>期待岗位：</strong>Web前端开发</h3></div>
+	<div class="mo1"><h3 style="margin-left:34.2%"><strong>职业规划：</strong>在做好前端开发的同时完善自己数据库后台等知识</h3></div>
+	<div class="mo2"><h3 style="margin-left:43.4%">努力在五年内成为全栈工程师</h3></div>
+	</div>
+	<div id="inf">
+     <div class="container">
+	      	<div class="col-lg-5">
+			<h4><span class="glyphicon glyphicon-book" style="font-size:32px; margin-left:10%; margin-top:7%;"></span>&nbsp;就读高校：广东外语外贸大学</h4>
+			<hr size="2" style="margin-left:15%; max-width:47%"/>
+			<h4><span class="glyphicon glyphicon-tasks" style="font-size:32px; margin-left:10%; margin-top:1%;"></span>&nbsp;就读专业：网络工程</h4>
+			<hr size="2" style="margin-left:15%; max-width:47%"/>
+			<h4><span class="glyphicon glyphicon-bookmark" style="font-size:32px; margin-left:10%; margin-top:1%;"></span>&nbsp;学历：本科</h4>
+			<hr size="2" style="margin-left:15%; max-width:47%"/>
+		    <div title="广东外语外贸大学（Guangdong University of Foreign Studies），简称广外，坐落于有“花城”美称的广州市，是一所具有鲜明国际化特色的广东省属重点大学。学校入选“2011计划” “教育部来华留学示范基地” “亚洲大学学生交流集体行动计划”（亚洲校园计划），是向联合国提供高端翻译人才的全球19所大学之一、全国国际经济与贸易学科的创始单位之一、国际大学翻译学院联合会成员，是华南地区国际化人才培养和外国语言文化、对外经济贸易、国际战略研究的重要基地"><img src="img/gdufs.jpg" style="max-width:60%; margin-top:5%"></div>
+			</div>
+			<div class="col-lg-2"><img src="img/黑板.jpg" style="max-width:80%; margin-top:20%"></div>
+            <div class="col-lg-5">
+    <h4><span class="glyphicon glyphicon-calendar" style="font-size:32px; margin-left:20%; margin-top:7%"></span>&nbsp;出生年月：1996.06</h4>
+	<hr size="2" style="margin-left:15%; max-width:47%"/>
+	<h4><span class="glyphicon glyphicon-user" style="font-size:32px; margin-left:20%; margin-top:1%"></span>&nbsp;性别：男</h4> 
+	<hr size="2" style="margin-left:15%; max-width:47%"/>
+	<h4><span class="glyphicon glyphicon-home" style="font-size:32px; margin-left:20%; margin-top:1%"></span>&nbsp;目前居住地：广州</h4> 
+	<hr size="2" style="margin-left:15%; max-width:47%"/>
+	<h4><span class="glyphicon glyphicon-map-marker" style="font-size:32px; margin-left:20%; margin-top:1%"></span>&nbsp;期待工作地：重庆or广州</h4> 
+    </div>
+	</div>
+	</div>
+    <div id="tec">
+	<div class="col-lg-6">
+    <div class="yuan"><img src="img/542414573749787624.jpg" style="max-width:100%">
+	<div class="child1">PHP</div>
+	<div class="child2">HTML5</div>
+	<div class="child3">CSS3</div>
+	<div class="child4">JAVASCRIPT</div>
+	<div class="child5">PHOTOSHOP</div>
+	<div class="child6">BOOTSTRAP3</div>
+	<div class="child7">SQL</div>
+	<div class="child8">CET4</div>
+	</div>
+    </div>
+	<h3 style="margin-top:5%; margin-left:75%">一年半的前端自学经验</h3>
+	<h3 style="margin-top:2%; margin-left:73%">熟练掌握<strong>HTML5+css3</strong>等前端开发技术</h3>
+	<h3 style="margin-top:2%; margin-left:70%">熟悉<strong>bootstrap3</strong>前端开发框架，利用<strong>bootstrap</strong>框架实现过一些简单的网页</h3>
+	<h3 style="margin-top:3%; margin-left:66%">会<strong>PS</strong>，会<strong>AE</strong>，也曾自学过<strong>PHP</strong></h3>
+	</div>
+    <h4 id="xm">EJB</h4>
+    <p>Enterprise Java Beans（EJB）是一个创建高度可扩展性和强大企业
+    </p>
+   
+</div>
+
+
+   <SCRIPT LANGUAGE="JavaScript">  
+    function reP(){  
+    document.getElementById('oImg').style.display = "block";  
+    }  
+    </SCRIPT> 
+ </body>
+ </html>
